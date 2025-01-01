@@ -9,8 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#1F441F',
+        secondary: '#C4DA59',
+      },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        monument: ['var(--font-monument)'],
+        impala: ['var(--font-impala)'],
+      },
+      backgroundImage: {
+        'hero': "url('/images/hero.png')",
       },
     },
   },
