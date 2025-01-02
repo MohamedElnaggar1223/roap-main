@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import localFont from 'next/font/local'
+import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -39,7 +40,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`scroll-smooth ${inter.variable} ${monument.variable} ${impala.variable}`}>
-      <body className="antialiased font-inter">{children}</body>
+      <body className="antialiased font-inter">
+        {children}
+        <Toaster />
+      </body>
     </html>
   )
 }
