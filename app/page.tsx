@@ -55,8 +55,12 @@ export default function Home() {
               <div className="flex flex-col gap-5">
                 <span className="font-monument font-extrabold">Download the App</span>
                 <div className="flex gap-3 justify-center px-10">
-                  <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
-                  <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+                  <Link href='https://apps.apple.com/us/app/roap-sports/id6569262163' target='_blank'>
+                    <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
+                  </Link>
+                  <Link href='https://play.google.com/store/apps/details?id=com.roap.appNew' target='_blank'>
+                    <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -75,8 +79,12 @@ export default function Home() {
               Elevate your athletic journey with our wide-ranging Academy options and Sports
             </p>
             <div className="relative flex w-full gap-3 z-10 md:w-1/4">
-              <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
-              <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+              <Link href='https://apps.apple.com/us/app/roap-sports/id6569262163' target='_blank'>
+                <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
+              </Link>
+              <Link href='https://play.google.com/store/apps/details?id=com.roap.appNew' target='_blank'>
+                <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+              </Link>
             </div>
           </div>
         </section>
@@ -129,8 +137,12 @@ export default function Home() {
                 Elevate your game, transform your journey.
               </p>
               <div className="flex w-3/4 gap-3 md:w-1/2">
-                <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
-                <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+                <Link href='https://apps.apple.com/us/app/roap-sports/id6569262163' target='_blank'>
+                  <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
+                </Link>
+                <Link href='https://play.google.com/store/apps/details?id=com.roap.appNew' target='_blank'>
+                  <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+                </Link>
               </div>
             </div>
             <div className="relative overflow-hidden pt-10 md:pt-0 flex-1 z-0">
@@ -190,8 +202,12 @@ export default function Home() {
                 Discover.Book.Transform.
               </p>
               <div className="flex w-3/4 gap-3 md:w-1/2">
-                <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
-                <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+                <Link href='https://apps.apple.com/us/app/roap-sports/id6569262163' target='_blank'>
+                  <Image src="/images/appstore.png" alt="App Store" width={170} height={60} />
+                </Link>
+                <Link href='https://play.google.com/store/apps/details?id=com.roap.appNew' target='_blank'>
+                  <Image src="/images/playstore.png" alt="Play Store" width={170} height={60} />
+                </Link>
               </div>
             </div>
             <div className="relative overflow-hidden pt-10 md:pt-0 flex-1 z-0">
@@ -213,8 +229,12 @@ export default function Home() {
               Elevate your athletic journey with our wide-ranging Academy options and Sports
             </p>
             <div className="relative flex w-3/4 gap-3 z-10">
-              <Image src="/images/appstore.png" alt="App Store" width={190} height={64} />
-              <Image src="/images/playstore.png" alt="Play Store" width={190} height={64} />
+              <Link href='https://apps.apple.com/us/app/roap-sports/id6569262163' target='_blank'>
+                <Image src="/images/appstore.png" alt="App Store" width={190} height={64} />
+              </Link>
+              <Link href='https://play.google.com/store/apps/details?id=com.roap.appNew' target='_blank'>
+                <Image src="/images/playstore.png" alt="Play Store" width={190} height={64} />
+              </Link>
             </div>
           </div>
           <div className="flex w-full">
