@@ -170,7 +170,7 @@ export default function Home() {
                 <p className="font-inter font-medium md:pr-20">
                   ROAPMGT automates sports academy management - instantly book space with advanced tech, no human intervention, seamless experience for athletes and academies.
                 </p>
-                <Link href="#" className="bg-primary py-2 px-7 font-inter font-medium rounded-3xl text-secondary self-start">
+                <Link href="https://academy.roap.co/sign-up" className="bg-primary py-2 px-7 font-inter font-medium rounded-3xl text-secondary self-start">
                   Add your Academy
                 </Link>
               </div>
@@ -184,7 +184,7 @@ export default function Home() {
                 <p className="font-inter font-medium md:pr-20">
                   ROAPMGT advanced all-in-one platform streamlines sports academy management - effortless bookings, total automation, delivering a seamless experience for athletes and academies.
                 </p>
-                <Link href="#" className="bg-primary py-2 px-7 font-inter font-medium rounded-3xl text-secondary self-start">
+                <Link href="https://academy.roap.co/sign-up" className="bg-primary py-2 px-7 font-inter font-medium rounded-3xl text-secondary self-start">
                   Add your Academy
                 </Link>
               </div>
