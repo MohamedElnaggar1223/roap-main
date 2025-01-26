@@ -17,7 +17,7 @@ export default function Home() {
             <Link href="#forbuissness">For Business</Link>
           </nav>
         </div>
-        <Link href="/join" className="text-secondary py-2 px-7 bg-primary rounded-full hidden md:block">
+        <Link href="https://academy.roap.co/sign-up" className="text-secondary py-2 px-7 bg-primary rounded-full hidden md:block">
           Join as a Sport Academy/Club
         </Link>
         <button onClick={() => setIsMenuOpen(true)} className="text-primary py-2 px-7 bg-[#E0E4D9] rounded-full md:hidden">
@@ -42,7 +42,7 @@ export default function Home() {
               <Link href="#forathlets" onClick={() => setIsMenuOpen(false)}>For Everyone</Link>
               <Link href="#forbuissness" onClick={() => setIsMenuOpen(false)}>For Business</Link>
               <Link href="#" onClick={() => setIsMenuOpen(false)}>Blog</Link>
-              <Link href="#" onClick={() => setIsMenuOpen(false)} className="text-secondary py-2 px-7 bg-primary rounded-full">
+              <Link href="https://academy.roap.co/sign-up" onClick={() => setIsMenuOpen(false)} className="text-secondary py-2 px-7 bg-primary rounded-full">
                 Join as a Sport Academy/Club
               </Link>
             </nav>
